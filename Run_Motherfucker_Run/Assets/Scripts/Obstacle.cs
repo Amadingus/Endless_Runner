@@ -23,6 +23,7 @@ public class Obstacle : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            SoundManagerScript.PlaySound ("takeDamage");
             Instantiate(effect, transform.position, Quaternion.identity);
 
             other.GetComponent<Player_Movement>().health -= damage;

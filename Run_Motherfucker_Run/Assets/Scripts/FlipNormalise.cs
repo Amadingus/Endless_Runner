@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlipNormalise : MonoBehaviour
 {
-    public GameObject playerCam;
+  
 
     public float spd;
     public float xPos;
@@ -27,7 +27,8 @@ public class FlipNormalise : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerCam.transform.eulerAngles = Vector3.forward * 0;
+            SoundManagerScript.PlaySound("normalise");
+            Camera.main.transform.rotation = Quaternion.Euler(0, 0, 0);
             Destroy(gameObject);
         }
 

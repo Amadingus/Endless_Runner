@@ -26,6 +26,7 @@ public class Player_Movement : MonoBehaviour
 
         if (health <= 0)
         {
+            SoundManagerScript.PlaySound("playerDeath");
             gameOver.SetActive(true);
             Destroy(gameObject);
         }

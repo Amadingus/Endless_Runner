@@ -76,8 +76,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstacle: {fileID: 414415198502197505, guid: ac0e104d2cf25aa42a4e4141b2e90988, type: 3}
-  FlipDebuff: {fileID: 0}
-  FlipNormalise: {fileID: 0}
 --- !u!1 &8627985801784665740
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +119,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4424043d77d9b3b41b7fe1d5c27be9a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacle: {fileID: 0}
-  FlipDebuff: {fileID: 3211914874924743701, guid: 56f51d7e37499c744ba4a8ddc0f70c26,
+  obstacle: {fileID: 7694743362971678796, guid: 04906f47d925f8d47a90647feb625bb9,
     type: 3}
-  FlipNormalise: {fileID: 0}

@@ -121,7 +121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4424043d77d9b3b41b7fe1d5c27be9a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacle: {fileID: 0}
+  obstacle: {fileID: 567059630683264224, guid: 9108ecb8a14e6674f8e8f978596de946, type: 3}
   FlipDebuff: {fileID: 0}
-  FlipNormalise: {fileID: 567059630683264224, guid: 9108ecb8a14e6674f8e8f978596de946,
-    type: 3}
+  FlipNormalise: {fileID: 0}

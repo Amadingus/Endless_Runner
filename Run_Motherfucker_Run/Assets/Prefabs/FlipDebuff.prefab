@@ -46,7 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec81c721b23cd904aab353e6fa432971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCam: {fileID: 0}
+  playerCam: {fileID: 7881159362338600521, guid: 2ae575a3bd979fa4b8b7e59906cc3b4f,
+    type: 3}
   spd: 15
   xPos: -15
 --- !u!58 &3211914874924743787

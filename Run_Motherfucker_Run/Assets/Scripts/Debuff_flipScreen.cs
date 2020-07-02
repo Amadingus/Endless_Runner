@@ -5,7 +5,7 @@ using UnityEngine;
 public class Debuff_flipScreen : MonoBehaviour
 {
 
-    public GameObject playerCam;
+  
 
     public float spd;
     public float xPos;
@@ -28,7 +28,9 @@ public class Debuff_flipScreen : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerCam.transform.eulerAngles = Vector3.forward * 180;
+            SoundManagerScript.PlaySound("confusion");
+
+            Camera.main.transform.rotation = Quaternion.Euler(0, 0, -180);
             Destroy(gameObject);
         }
 
